@@ -1,0 +1,111 @@
+
+.encabezado {
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+   
+    align-items: center;
+  /*profe no logre colocarlo en posición fixe (fija) si lo hago se baja todo)*/
+    
+    
+}
+.encabezado2 {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-evenly;
+     /* profe no pude colocarle las letras en color blanco una vez que le coloque la etiqueta <a> se coloco morado */
+    
+}
+.medio {
+    height: 150px;
+     width: 60%;
+    margin-top: 100px;
+   margin-left: 250px;
+   align-content: center;
+}
+
+.galería {
+    margin-left: 200px; 
+}
+
+.imagenes1 > div {
+   
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    gap: 20px;
+    
+}
+.dos {
+    width: 200px;
+    height: 250px;
+   margin-left: 200px;
+}
+.sobre {
+    margin-left: 210px;
+}
+
+.container2 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+ 
+  }
+
+.imagen {
+    width: 200px;
+    height: 250px;
+    margin-left: 50px;
+}
+.parrafo {
+    width: 579px;
+    margin-left: -8px;
+    margin-right: 40px;
+}
+.contenedor3 {
+    margin-top: 40px;
+    display: flex;
+    margin-left: 40px;
+    
+}
+.fotograro {
+    margin-left: 120px;
+}
+.contenedor4 {
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 46px;
+    border-radius: 10px;
+    justify-content: space-between;
+    width: 400px;
+     /* y aca jamas logre separar los items uno del otro */
+
+    
+}
+.botom {
+    width: 60px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+    margin: auto;
+}
+footer {
+    background-color: black;
+    color: aliceblue;
+    margin-top: 30px;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Profe tengo otra duda cuando uso display Flex esto me coloca cada elemento uno al lado del otro cierto
+lo que no me queda caro es eso del justify center e item center*/
+/* por otro lado uso muchos DIV y eso me pone triste ja ja ja parece que armo un rompecabeza */
+/* Profe por último lo molesto si me envia otro ejercicio para seguir practicando por favor y digame como ve mi trabajo digame todo profe para mejorar*/
+/* GRACIAS PROFE POR SU AYUDA */
